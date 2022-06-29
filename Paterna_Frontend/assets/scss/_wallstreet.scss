@@ -1,0 +1,27 @@
+#wallstreet{
+    background-color: #00798A;
+    padding: 2rem;
+    .col-8{
+        .wallstreet-title{
+            margin-top:2rem ;
+            font-size: 4rem;
+            color: white;
+        }
+        .wallstreet-description{
+            font-size: 2rem;
+            color: white;
+        }
+    }
+    .col-4{
+        .count{
+            margin-top: 20px;
+            color: white;
+            font-size: 4rem;
+            font-weight: 700;
+        }
+        .count-title{
+            color: white;
+            font-size: 2rem;
+        }
+    }
+}

@@ -1,0 +1,20 @@
+#countstreet{
+    background-color: #00798A;
+    padding: 1rem;
+    .col-3{
+        .countstreet-count{
+            color: white;
+            font-size: 3rem;
+            font-weight: 600;
+        }
+        .countstreet-description{
+            color: white;
+            font-size: 2rem;
+        }
+    }
+    .street-title{
+        display: flex;
+        justify-content: center;
+        align-items: baseline;
+    }
+}

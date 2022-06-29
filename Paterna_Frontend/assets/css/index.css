@@ -1,0 +1,320 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: black;
+}
+
+.container-fluid a {
+  color: white !important;
+}
+.container-fluid #navbarNav {
+  margin-left: 45rem;
+}
+
+#page-intro {
+  background-color: #00798A;
+  padding: 10rem;
+}
+#page-intro .intro-text {
+  text-align: center;
+}
+#page-intro .page-h1 {
+  color: white;
+  font-weight: 700;
+  font-size: 6rem;
+}
+#page-intro .page-p1 {
+  font-size: 3rem;
+  color: white;
+}
+#page-intro .page-p2 {
+  font-size: 1rem;
+  color: white;
+}
+#page-intro .page-btn {
+  color: white;
+  background-color: red;
+  border: 1px solid transparent;
+  font-size: 15px;
+}
+
+#our-services {
+  background-image: url(../img/sativa.png);
+}
+#our-services .services h2 {
+  margin-top: 2rem;
+  font-size: 3rem;
+  color: #00798A;
+}
+#our-services .services .services-title {
+  font-size: 2rem;
+}
+#our-services .services .services-description {
+  font-size: 20px;
+}
+#our-services .services2 .services-title {
+  margin-top: 6rem;
+  font-size: 2rem;
+}
+#our-services .services2 .services-description {
+  font-size: 20px;
+}
+#our-services .card {
+  background-color: #00798A;
+}
+#our-services .card i {
+  margin-top: 2rem;
+  color: white;
+  font-size: 3rem;
+  text-align: center;
+}
+#our-services .card-body {
+  text-align: center;
+}
+#our-services .card-body h5 {
+  color: white;
+}
+#our-services .card-body p {
+  color: white;
+}
+#our-services .services-footer {
+  margin-top: 2rem;
+}
+#our-services .servicesfooter-title {
+  font-size: 2rem;
+}
+#our-services .servicesfooter-description {
+  font-size: 1rem;
+}
+
+#wallstreet {
+  background-color: #00798A;
+  padding: 2rem;
+}
+#wallstreet .col-8 .wallstreet-title {
+  margin-top: 2rem;
+  font-size: 4rem;
+  color: white;
+}
+#wallstreet .col-8 .wallstreet-description {
+  font-size: 2rem;
+  color: white;
+}
+#wallstreet .col-4 .count {
+  margin-top: 20px;
+  color: white;
+  font-size: 4rem;
+  font-weight: 700;
+}
+#wallstreet .col-4 .count-title {
+  color: white;
+  font-size: 2rem;
+}
+
+#our-plans {
+  background-image: url(../img/sativa.png);
+}
+#our-plans .plan h2 {
+  margin-top: 2rem;
+  font-size: 3rem;
+  color: #00798A;
+}
+#our-plans .plan .plan-title {
+  font-size: 2rem;
+}
+#our-plans .plan .plan-description {
+  font-size: 20px;
+}
+#our-plans .plan2 .plan-title {
+  margin-top: 6rem;
+  font-size: 2rem;
+}
+#our-plans .plan2 .plan-description {
+  font-size: 20px;
+}
+#our-plans .our-plan {
+  padding-top: 8rem;
+}
+#our-plans .card-content {
+  background-color: #D8D8D8;
+}
+#our-plans .plans-wrapper {
+  padding-bottom: 5rem;
+}
+#our-plans .card-list ul {
+  padding: 0;
+}
+#our-plans .card-list li {
+  list-style-type: none;
+}
+#our-plans .card-list .list-item {
+  font-size: 2.4rem;
+  font-weight: 400;
+  color: #858585;
+  padding-bottom: 5rem;
+}
+#our-plans .card-list .card-title {
+  font-size: 2rem;
+  padding: 1rem 0;
+  background-color: #000;
+  color: #fff;
+}
+#our-plans .card-list .Price {
+  font-size: 5rem;
+  color: #fff;
+  font-weight: 400;
+  background-color: #1F8A63;
+  padding: 2rem 0;
+}
+#our-plans .card-list .button a {
+  font-size: 2rem;
+}
+
+#countstreet {
+  background-color: #00798A;
+  padding: 1rem;
+}
+#countstreet .col-3 .countstreet-count {
+  color: white;
+  font-size: 3rem;
+  font-weight: 600;
+}
+#countstreet .col-3 .countstreet-description {
+  color: white;
+  font-size: 2rem;
+}
+#countstreet .street-title {
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+}
+
+h2 {
+  margin: 0;
+  color: #8495a5;
+  font-size: 2.5em;
+  font-weight: 300;
+}
+
+#contact-form {
+  background-image: url(../img/sativa.png);
+  margin: 0 auto;
+}
+
+#contact, label, input[name=submit] {
+  position: relative;
+}
+
+label > span, input, textarea, button {
+  box-sizing: border-box;
+}
+
+label {
+  display: block;
+  opacity: 0.6;
+}
+
+label > span {
+  display: none;
+}
+
+input, textarea, button {
+  width: 100%;
+  padding: 0.5em;
+  border: none;
+  font: 300 100%/1.2 Ubuntu, sans-serif;
+}
+
+input[type=text], input[type=email], textarea {
+  margin: 0 0 1em;
+  border: 1px solid #ccc;
+  outline: none;
+}
+
+input.invalid, textarea.invalid {
+  border-color: #d5144d;
+}
+
+textarea {
+  height: 6em;
+}
+
+input[type=submit], button {
+  background: blue;
+  color: white;
+}
+
+input[type=submit]:hover, button:hover {
+  background: #91b36f;
+}
+
+@media screen and (min-width: 30em) {
+  #contact-form h2 {
+    margin-left: 26.3736%;
+    font-size: 2em;
+    line-height: 1.5;
+  }
+
+  label > span {
+    vertical-align: top;
+    display: inline-block;
+    width: 26.3736%;
+    padding: 0.5em;
+    border: 1px solid transparent;
+    text-align: right;
+  }
+
+  input, textarea, button {
+    width: 73.6263%;
+    line-height: 1.5;
+  }
+
+  textarea {
+    height: 10em;
+  }
+
+  input[type=submit], button {
+    margin-left: 26.3736%;
+  }
+}
+@media screen and (min-width: 48em) {
+  #contact-form {
+    text-align: justify;
+    line-height: 0;
+  }
+
+  #contact-form:after {
+    content: "";
+    display: inline-block;
+    width: 100%;
+  }
+
+  #contact-form h2 {
+    margin-left: 17.2661%;
+  }
+
+  #contact-form form, #contact-form aside {
+    vertical-align: top;
+    display: inline-block;
+    width: 65.4676%;
+    text-align: left;
+    line-height: 1.5;
+  }
+
+  #contact-form aside {
+    width: 30.9353%;
+  }
+}
+.footer {
+  background-color: black;
+  padding: 2rem;
+}
+.footer ul {
+  display: flex;
+  justify-content: end;
+  color: white;
+}/*# sourceMappingURL=index.css.map */

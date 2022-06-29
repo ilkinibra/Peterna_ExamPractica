@@ -1,0 +1,69 @@
+#our-plans{
+    background-image: url(../img/sativa.png);
+    .plan{
+        h2{
+            margin-top: 2rem;
+            font-size: 3rem;
+            color:#00798A;
+        }
+        .plan-title{
+            font-size: 2rem;
+        }
+        .plan-description{
+            font-size: 20px;
+        }
+    }
+    .plan2{
+        .plan-title{
+            margin-top: 6rem;
+            font-size: 2rem;
+        }
+        .plan-description{
+            font-size: 20px;
+        }
+    }
+    .our-plan{
+        padding-top: 8rem;
+       
+    }
+    .card-content{
+        background-color: #D8D8D8;
+    }
+    .plans-wrapper{
+        padding-bottom: 5rem;
+    }
+    .card-list{
+        ul{
+            padding: 0;
+        }
+        li{
+
+            list-style-type: none;
+        }
+        .list-item{
+            font-size: 2.4rem;
+            font-weight: 400;
+            color: #858585;
+            padding-bottom: 5rem;
+        }
+        
+        .card-title{
+            font-size: 2rem;
+            padding: 1rem 0;
+            background-color: #000;
+            color:#fff
+        }
+        .Price{
+            font-size: 5rem;
+            color: #fff;
+            font-weight: 400;
+            background-color: #1F8A63;
+            padding: 2rem 0;
+        }
+        .button{
+            a{
+                font-size: 2rem;
+            }
+        }
+    }
+}

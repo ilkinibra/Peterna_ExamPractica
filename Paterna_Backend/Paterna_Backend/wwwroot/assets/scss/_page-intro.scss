@@ -1,0 +1,26 @@
+#page-intro{
+    background-color: #00798A;
+    padding: 10rem;
+    .intro-text{
+        text-align: center;
+    }
+    .page-h1{
+        color: white;
+        font-weight: 700;
+        font-size: 6rem;
+    }
+    .page-p1{
+        font-size: 3rem;
+        color: white;
+    }
+    .page-p2{
+        font-size: 1rem;
+        color: white;
+    }
+    .page-btn{
+        color: white;
+        background-color: red;
+        border: 1px solid transparent;
+        font-size: 15px;
+    }
+}

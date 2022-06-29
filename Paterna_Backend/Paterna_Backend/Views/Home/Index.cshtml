@@ -1,0 +1,146 @@
+﻿@model HomeVM
+@{
+    ViewData["Title"] = "Index";
+}
+
+
+<main>
+    <section id="page-intro">
+        <div class="intro-text">
+            <h1 class="page-h1">@Model.PageIntro.Title</h1>
+            <p class="page-p1">@Model.PageIntro.subTitle</p>
+            <p class="page-p2">@Model.PageIntro.Description</p>
+            <button class="page-btn">DOWNLOAD THIS THEME NOW!</button>
+        </div>
+    </section>
+
+    <section id="our-services">
+        <div class="container">
+            <div class="row">
+                <div class="services col-6">
+                    <h2>OUR SERVICES:</h2>
+                    <p class="services-title">@Model.Services.Title</p>
+                    <p class="services-description">@Model.Services.Description</p>
+                </div>
+                <div class="services2 col-6">
+                    <p class="services-title">@Model.Services.Title</p>
+                    <p class="services-description">@Model.Services.Description</p>
+
+                </div>
+                <div class="row row-cols-1 row-cols-md-3 g-4">
+                    @foreach (var item in Model.servicesCard)
+                    {
+                          <div class="col">
+                        <div class="card h-100">
+                            @Html.Raw(item.IconPath)
+                            <div class="card-body">
+                                <h5 class="card-title">@item.Name</h5>
+                                <p class="card-text">@item.Description</p>
+                            </div>
+                        </div>
+                    </div>
+                    }
+                </div>
+                <div class="services-footer col-12">
+                    <p class="servicesfooter-title">@Model.Services.subTitle</p>
+                    <p class="servicesfooter-description">@Model.Services.subDescription</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="wallstreet">
+        <div class="container">
+            <div class="row">
+                <div class="col-8">
+                    <h1 class="wallstreet-title">Featured In Wall Street</h1>
+                    <p class="wallstreet-description">and many other magazines.</p>
+                </div>
+                <div class="col-4">
+                    <p class="count">300+</p>
+                    <p class="count-title">Reports</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="our-plans">
+        <div class="container">
+            <div class="row">
+                <div class="plan col-6">
+                    <h2>OUR PLANS:</h2>
+                    <p class="plan-title">@Model.Plan.Title</p>
+                    <p class="plan-description">@Model.Plan.Description</p>
+                </div>
+                <div class="plan2 col-6">
+                    <p class="plan-title">@Model.Plan.Title</p>
+                    <p class="plan-description">@Model.Plan.Description</p>
+                </div>
+                <div class="our-plan-cards">
+                    <div class="row row-cols-1 row-cols-md-3 g-4">
+                        @foreach (var item in Model.planCards)
+                        {
+                            
+                        <div class="col ">
+                            <div class="card card-list text-center card-content">
+                                <ul>
+                                    <li class="card-title">@item.Name</li>
+                                    <li class="list-item pt-4">
+                                        <b>@item.Account</b> Accounts
+                                    </li>
+                                    <li class="list-item"><b>@item.Email</b>Emails</li>
+
+                                    <li class="list-item"><b>@item.Space</b> Space</li>
+                                    <li class="list-item"><b>@item.Support</b> Support</li>
+                                    <li class="Price"><b>$@item.Price only</b> </li>
+                                    <li class="button py-5"><a href="#" class="btn btn-danger py-3" style="width: 100%;">Read more</a> </li>
+                                </ul>
+                            </div>
+                        </div>
+                        }
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="countstreet">
+        <div class="container">
+            <div class="row">
+                <div class="street-title" style="margin-bottom:2rem ;">
+                    <div class="col-3">
+                        <h1 class="countstreet-count">5000+</h1>
+                        <p class="countstreet-description">Projects</p>
+                    </div>
+                    <div class="col-3">
+                        <p class="countstreet-count">205+</p>
+                        <p class="countstreet-description">Countries</p>
+                    </div>
+                    <div class="col-3">
+                        <h1 class="countstreet-count">1300+</h1>
+                        <p class="countstreet-description">Officies</p>
+                    </div>
+                    <div class="col-3">
+                        <p class="countstreet-count">2400+</p>
+                        <p class="countstreet-description">Clients</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact-form">
+        <h2 style="color: #00798A; ">Contact Us:</h2>
+        <form id="contact" name="contact" accept-charset="utf-8">
+            <label><span>Name</span><input name="name" type="text" placeholder="Name" /></label>
+            <label><span>Email</span><input name="email" type="email" placeholder="Email" /></label>
+            <label><span>Message</span><textarea name="message" placeholder="Message"></textarea></label>
+            <input name="submit" type="submit" value="Send" />
+        </form>
+        <aside>
+            <p>Just hit Send on an empty form to see the invalid input animation</p>
+            <p>Fill in the form fields to see the success animation (no real validation, any random input will do)</p>
+        </aside>
+    </section>
+
+</main>
